@@ -1,0 +1,18 @@
+[
+  {
+    "label": "koka: run main",
+    "command": "koka",
+    "args": ["-e", "$ZED_FILE"],
+    "tags": ["koka-main"]
+  },
+  {
+    "label": "koka: run current file",
+    "command": "koka",
+    "args": ["-e", "$ZED_FILE"]
+  },
+  {
+    "label": "koka: build current file",
+    "command": "koka",
+    "args": ["-c", "$ZED_FILE"]
+  }
+]

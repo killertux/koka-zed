@@ -1,0 +1,6 @@
+/target
+/Cargo.lock
+*.wasm
+
+# Zed dev extension build artifacts (cloned grammar source + compiled .wasm)
+/grammars/

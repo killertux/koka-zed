@@ -1,0 +1,15 @@
+id = "koka"
+name = "Koka"
+description = "Koka language support: syntax highlighting, indentation, and the Koka language server."
+version = "0.2.0"
+schema_version = 1
+authors = ["Bruno Clemento <bruno.clemento42@gmail.com>"]
+repository = "https://github.com/clemento/koka-zed"
+
+[language_servers.koka]
+name = "Koka Language Server"
+language = "Koka"
+
+[grammars.koka]
+repository = "https://github.com/koka-community/tree-sitter-koka"
+commit = "07b1ce29a06656b552f7f198e572499062ccfffe"
